@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS Prices
+    (ID         INT,
+    BRAND_ID    INT,
+    START_DATE  DATETIME,
+    END_DATE    DATETIME,
+    PRICE_LIST  INT,
+    PRODUCT_ID  INT,
+    PRIORITY    INT,
+    PRICE       DECIMAL(18,2),
+    CURR        VARCHAR(3));
